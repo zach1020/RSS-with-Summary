@@ -1,0 +1,60 @@
+:root {
+  background-color: black;
+}
+
+.sectionHeader {
+  font-family: Arial;
+  color: white;
+  font-size: xx-large;
+  text-align: left;
+}
+
+.sectionSubHeader {
+  font-family: Arial;
+  color: white;
+  font-size: xx-small;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.feedViewListItem {
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: Arial;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedViewListItem:hover {
+  background-color: #2b2b2b;
+  border-radius: 30px;
+}
+
+.feedViewListItemTitle {
+  text-align: left;
+  padding-left: 5px;
+}
+
+.feedViewListItemCount {
+  text-align: right;
+  padding-right: 10px;
+}
